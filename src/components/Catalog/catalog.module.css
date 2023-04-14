@@ -1,0 +1,69 @@
+.catalog{
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.header_catalog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h1_catalog{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+.input{
+    width: 633px;
+    position: relative;
+}
+.input input{
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    padding: 8px 0;
+    color: #B7B7B7;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #B7B7B7;
+}
+.ikon_search{
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+}
+.catalog_wrapper{
+    margin-top: 47px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+.tovar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+.img_tovar{
+    width: 300px;
+    height: 381px;
+}
+.img_tovar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.price_old{
+    text-decoration-line: line-through;
+    color: #B7B7B7;
+}
+.prices{
+    display: flex;
+    gap: 27px;
+    font-weight: 500;
+    align-items: center;
+}
